@@ -1,0 +1,35 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><title>platelog 개인정보 처리방침</title></head><body><main>
+<span class="tape">platelog</span>
+<h1>개인정보 처리방침</h1>
+<p class="meta">시행일 2026년 9월 22일 · <a href="index.html">platelog</a> · <a href="support.html">지원</a></p>
+<p>platelog(이하 "앱")는 친구·연인·가족 2~6명의 작은 크루와 식사 사진을 나누는 앱입니다. 이 문서는 앱이 어떤 정보를 언제 왜 받는지, 누가 볼 수 있는지, 어떻게 지우는지를 적습니다.</p>
+<h2>1. 수집하는 정보</h2>
+<table><tr><th>정보</th><th>언제</th><th>왜</th></tr>
+<tr><td>Apple 계정 식별자, 이메일(Apple이 제공하는 경우, "이메일 가리기" 가능)</td><td>Sign in with Apple로 로그인할 때</td><td>계정 식별·로그인</td></tr>
+<tr><td>닉네임</td><td>처음 설정할 때</td><td>크루원에게 보이는 이름</td></tr>
+<tr><td>프로필 사진(선택)</td><td>설정 "나"에서 고르거나 찍을 때</td><td>크루원에게 보이는 스티커. 같은 크루의 크루원만 봅니다</td></tr>
+<tr><td>앱에서 찍은 사진, 방에 올린 사진</td><td>셔터를 누르거나 사진을 올릴 때</td><td>크루 타임라인·방에 공유</td></tr>
+<tr><td>쪽지·한마디·이모지 반응</td><td>보낼 때</td><td>크루 대화</td></tr>
+<tr><td>푸시 토큰, 앱 버전</td><td>알림을 허용할 때</td><td>알림 발송</td></tr>
+<tr><td>시간대(IANA 식별자)</td><td>앱을 열 때 자동</td><td>시각 표시·조용한 시간</td></tr></table>
+<p>위치 정보는 수집하지 않으며, 사진의 EXIF 메타데이터는 저장 전에 제거합니다. 사진 라이브러리 권한은 요구하지 않습니다(방에 올릴 때는 시스템 선택기로 고른 사진만 받습니다). 광고, 추적, 제3자 사용행태 분석 도구는 없습니다.</p>
+<p class="note">Google 계정 연동과 사진 기반 식단 분석은 이 판(1.0.0)에 없습니다. 추가될 때 이 문서를 먼저 고치고 앱 안에서 동의를 받습니다.</p>
+<h2>2. 누가 볼 수 있나</h2>
+<p>사진·쪽지·반응은 <strong>같은 크루의 크루원만</strong> 볼 수 있습니다. 공개 피드는 없습니다. 운영자는 서비스 운영(장애 대응)에 필요한 범위에서만 접근합니다.</p>
+<h2>3. 어디에 저장하나</h2>
+<p>Supabase(데이터베이스·파일 저장소, 리전 ap-northeast-1, 일본 도쿄). 전송은 TLS로, 저장은 암호화됩니다. 사진은 짧게 만료되는 서명 URL로만 읽습니다.</p>
+<h2>4. 보관과 삭제</h2>
+<ul>
+<li>게시물·쪽지를 지우면 즉시 보이지 않게 되고, 파일은 뒤이어 삭제됩니다.</li>
+<li>설정에서 사진 보존 기간(계속 · 30일 · 90일 · 1년)을 정하면 지난 사진은 매일 자동으로 정리됩니다.</li>
+<li>계정 삭제는 앱의 설정에서 즉시 할 수 있습니다. 사진·게시물·반응·쪽지·기기 토큰이 함께 삭제되고, 크루장이었다면 가장 먼저 들어온 크루원에게 넘어갑니다(혼자였다면 크루도 삭제).</li>
+<li>백업은 서비스 제공자의 백업 보존 정책(기본 7일) 안에 파기됩니다.</li>
+</ul>
+<h2>5. 알림</h2>
+<p>알림은 종류별로 앱 안에서 끄고 켤 수 있습니다. 끄면 서버가 발송하지 않습니다.</p>
+<h2>6. 이용자의 권리</h2>
+<p>앱 안에서 언제든 내 사진을 내보내고(설정 → 나 → 내 사진 내보내기), 사진·쪽지를 지우고, 계정을 삭제할 수 있습니다. 그 밖의 열람·정정·삭제 요청은 아래로 보내 주세요.</p>
+<h2>7. 문의</h2>
+<p>이메일: <a href="mailto:lpaiu.cs@gmail.com">lpaiu.cs@gmail.com</a></p>
+<p class="note">이 문서가 바뀌면 시행일을 고치고 앱 안에서 알립니다.</p>
+<footer>© 2026 platelog</footer></main></body></html>

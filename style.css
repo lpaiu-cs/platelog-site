@@ -4,6 +4,7 @@
 body{margin:0;background:var(--paper) radial-gradient(var(--dot) 1px,transparent 1.3px);background-size:16px 16px;color:var(--ink);font-family:'Gowun Dodum',-apple-system,'Apple SD Gothic Neo',sans-serif;line-height:1.7}
 main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
 h1{font-family:'Nanum Pen Script',cursive;font-weight:400;font-size:44px;margin:0 0 4px;line-height:1.1}
+:lang(ja) h1{font-family:'Yomogi',cursive;font-size:38px}
 h2{font-size:17px;margin:36px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 .tape{display:inline-block;padding:2px 12px;background:var(--tape);color:#2A2826;font-family:'Nanum Pen Script',cursive;font-size:22px;transform:rotate(-2deg);margin-bottom:16px}
 .meta{font-size:13px;color:var(--soft);margin:0 0 24px}

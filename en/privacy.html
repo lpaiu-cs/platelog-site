@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css"><title>platelog Privacy Policy</title></head><body><main>
+<span class="tape">platelog</span>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective September 27, 2026 · <a href="index.html">platelog</a> · <a href="support.html">Support</a></p>
+<p>platelog (the "app") is an app for sharing meal photos with a small crew of 2 to 6 friends, partners, or family. This document explains what information the app receives, when and why, who can see it, and how to delete it.</p>
+<h2>1. Information we collect</h2>
+<table><tr><th>Information</th><th>When</th><th>Why</th></tr>
+<tr><td>Apple account identifier, email address (if Apple provides it; "Hide My Email" is available)</td><td>When you use Sign in with Apple</td><td>Identifying your account, signing in</td></tr>
+<tr><td>Google account identifier, email address, name and profile photo URL (the basic info Google provides)</td><td>When you sign in with Google, or link Google under "Account" in Settings</td><td>Identifying your account, signing in. Lets you sign in to the same account on iPhone and Android. The app doesn't use your name or profile photo (members only see the nickname and profile photo you choose)</td></tr>
+<tr><td>Nickname</td><td>When you first set it up</td><td>The name members see</td></tr>
+<tr><td>Profile photo (optional)</td><td>When you choose or take one under "Me" in Settings</td><td>A sticker members see. Only members of the same crew see it</td></tr>
+<tr><td>Photos taken in the app, photos sent in the room</td><td>When you press the shutter or send a photo</td><td>Sharing on the crew timeline and in the room</td></tr>
+<tr><td>Messages, comments, emoji reactions</td><td>When you send them</td><td>Crew conversation</td></tr>
+<tr><td>Push token (APNs on iPhone, FCM on Android), device type, app version</td><td>When you open the app after joining a crew</td><td>Sending notifications. If you don't allow notifications, they don't appear on your device</td></tr>
+<tr><td>Time zone (IANA identifier)</td><td>Automatically when you open the app</td><td>Showing times, quiet hours</td></tr></table>
+<p>We don't collect location data, and EXIF metadata is removed from photos before they're stored. The app doesn't ask for photo library access (when you send a photo in the room, it only receives the photos you pick in the system picker). There are no ads, no tracking, and no third-party behavioral analytics tools.</p>
+<p class="note">Photo-based meal analysis isn't available yet. If it's added, we'll update this document first and ask for your consent in the app.</p>
+<h2>2. Who can see it</h2>
+<p>Photos, messages, and reactions can be seen <strong>only by members of the same crew</strong>. There's no public feed. The operator accesses them only as far as needed to run the service (handling outages).</p>
+<h2>3. Where it's stored and who processes it</h2>
+<p>To run the app, we entrust processing to the companies below. Information is sent to them over the internet as you use the app.</p>
+<ul>
+<li><strong>Supabase Pte. Ltd.</strong> (a Singapore company; servers in Tokyo, Japan, ap-northeast-1): database and file storage, and sign-in. It keeps all the information in section 1 until you delete your account (section 5). Contact: <a href="mailto:privacy@supabase.com">privacy@supabase.com</a></li>
+<li><strong>Apple Inc.</strong> (United States): delivering notifications to iPhone (APNs). It handles the push token, the notification text (member nicknames, message and comment text), and a photo thumbnail URL that works for only 10 minutes, for as long as delivery requires (under Apple's policy). <a href="https://www.apple.com/legal/privacy/contact/">Privacy contact</a></li>
+<li><strong>Google LLC</strong> (United States): delivering notifications to Android (FCM). The information sent and how it's kept are the same as for Apple (under Google's policy). <a href="https://support.google.com/policies/contact/general_privacy_form">Privacy contact</a></li>
+</ul>
+<p>If you don't want your information sent this way, you can stop using the app and delete your account. You won't be able to use the app after that.</p>
+<h2>4. How we keep it safe</h2>
+<ul>
+<li>Every database table has row-level permissions, so the server gives photos, messages, and reactions only to members of the same crew.</li>
+<li>The server admin key stays on the server and is never put in the app.</li>
+<li>Data is sent over TLS and encrypted when stored. Photos are read only through signed URLs that expire quickly, and EXIF metadata is removed before storage.</li>
+<li>Personal information is handled in Korea (the operator), Japan (servers), Singapore (Supabase), and the United States (Apple, Google). We check each country's data protection rules and take the measures above.</li>
+</ul>
+<h2>5. Retention and deletion</h2>
+<ul>
+<li>When you delete a post or message, it disappears right away, and its files are deleted shortly after.</li>
+<li>If you choose how long to keep photos in Settings (Forever · 30 days · 90 days · 1 year), older photos are deleted automatically every day.</li>
+<li>You can delete your account right away in the app's Settings. Your photos, posts, reactions, messages, and device tokens are deleted with it. If you were the leader, the role passes to the member who joined first (if you were the only member, the crew is deleted too).</li>
+<li>Backups are destroyed within the service provider's backup retention policy (7 days by default).</li>
+</ul>
+<h2>6. Notifications</h2>
+<p>You can turn each type of notification on or off in the app. When a type is off, the server doesn't send it.</p>
+<h2>7. Your rights</h2>
+<p>In the app, you can export your photos (Settings → Me → Export my photos), delete photos and messages, and delete your account at any time.</p>
+<p>For anything else, such as accessing, correcting, or deleting your information, stopping its processing, or learning its purposes of use or the records of what was provided to third parties, email the address below. To confirm it's you, include the email address of the account you sign in with (or your nickname and crew name). Once confirmed, we'll handle it without delay, free of charge.</p>
+<h2>8. Operator and contact</h2>
+<ul>
+<li>Operator: the individual developer who made platelog. The developer's name and address will be provided without delay on request.</li>
+<li>Privacy officer, questions, and complaints: the operator, <a href="mailto:lpaiu.cs@gmail.com">lpaiu.cs@gmail.com</a></li>
+<li>In Korea, you can also seek advice or file a report with the Personal Information Dispute Mediation Committee (1833-6972, kopico.go.kr) and the Personal Information Infringement Report Center (118 from within Korea, privacy.kisa.or.kr).</li>
+<li>If you live in Japan, you can also contact the Personal Information Protection Commission's consultation line (03-6457-9849, weekdays 9:30–17:30 JST).</li>
+</ul>
+<p class="note">If this document changes, we'll update the effective date and announce it on this page and in the app's update notes.</p>
+<p class="note">This page is a translation of the Korean version. If they differ, the Korean version prevails.</p>
+<footer>© 2026 platelog · <a href="../privacy.html" lang="ko">한국어</a> · <a href="../ja/privacy.html" lang="ja">日本語</a> · <a href="privacy.html" lang="en">English</a></footer></main></body></html>

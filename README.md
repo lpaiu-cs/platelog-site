@@ -27,7 +27,7 @@ Open `http://127.0.0.1:8773/`. The checker verifies local links, document metada
 | Gallery Search AI introduction | `gallery-search-ai/index.html` |
 | Gallery Search AI policy | `gallery-search-ai/privacy.html` |
 | Gallery Search AI help | `gallery-search-ai/support.html` |
-| Gallery Search AI trial, purchase and consumer rights | `gallery-search-ai/purchase.html` |
+| Gallery Search AI free use, license and consumer rights | `gallery-search-ai/purchase.html` |
 | Platelog Korean introduction | `platelog.html` |
 | Platelog existing Korean store links | `privacy.html`, `support.html`, `terms.html`, `delete.html` |
 | Platelog English and Japanese documents | Same file names under `en/` and `ja/` |

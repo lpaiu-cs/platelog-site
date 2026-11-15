@@ -1,6 +1,6 @@
 # App support and privacy
 
-Public documents for **Gallery Search AI**, **platelog** and **Dogak Dogak**, hosted together on [GitHub Pages](https://lpaiu-cs.github.io/platelog-site/). The repository name stays `platelog-site` so previously published Platelog links keep working.
+Public documents for **Gallery Search AI**, **platelog** and **Dodak Dodak**, hosted together on [GitHub Pages](https://lpaiu-cs.github.io/platelog-site/). The repository name stays `platelog-site` so previously published Platelog links keep working.
 
 ## Edit a document
 
@@ -28,9 +28,9 @@ Open `http://127.0.0.1:8773/`. The checker verifies local links, document metada
 | Gallery Search AI policy | `gallery-search-ai/privacy.html` |
 | Gallery Search AI help | `gallery-search-ai/support.html` |
 | Gallery Search AI free use, license and consumer rights | `gallery-search-ai/purchase.html` |
-| Dogak Dogak introduction | `dogak/index.html` (Korean), `dogak/en/index.html`, `dogak/ja/index.html` |
-| Dogak Dogak policy | `dogak/privacy.html` and the same name under `dogak/en/`, `dogak/ja/` |
-| Dogak Dogak help | `dogak/support.html` and the same name under `dogak/en/`, `dogak/ja/` |
+| Dodak Dodak introduction | `dogak/index.html` (Korean), `dogak/en/index.html`, `dogak/ja/index.html` |
+| Dodak Dodak policy | `dogak/privacy.html` and the same name under `dogak/en/`, `dogak/ja/` |
+| Dodak Dodak help | `dogak/support.html` and the same name under `dogak/en/`, `dogak/ja/` |
 | Platelog Korean introduction | `platelog.html` |
 | Platelog existing Korean store links | `privacy.html`, `support.html`, `terms.html`, `delete.html` |
 | Platelog English and Japanese documents | Same file names under `en/` and `ja/` |
@@ -47,7 +47,7 @@ When Gallery Search AI privacy/help changes, update the offline snapshots `ios/F
 
 When Platelog behavior changes, update Korean, English and Japanese notices together. Preserve mandatory local rights even when a translation names Korean as the governing language. State the actual active providers, countries, data, retention and deletion behavior. Do not assert fixed backup days, guaranteed erasure of others' copies, unseen contracts or worldwide compliance.
 
-Dogak Dogak is a keyboard extension with no network features and no data collection. Full Access is used only for key sounds, haptics and sharing settings with its app through an App Group; typed text is never stored or sent. Keep the Korean, English and Japanese documents in step; Korean prevails. If a paid unlock or any network feature is added, revise its policy before release.
+Dodak Dodak (released as Dogak Dogak in 1.0.0; the `dogak/` folder and URLs keep the old name) is a keyboard extension with no network features and no data collection. Full Access is used only for key sounds, haptics and sharing settings with its app through an App Group; typed text is never stored or sent. Japanese conversion uses the open-source azooKey engine and dictionary bundled in the app, on the device, with learning turned off. Keep the Korean, English and Japanese documents in step; Korean prevails. If a paid unlock or any network feature is added, revise its policy before release.
 
 Review the data flow before adding an SDK, analytics, AI service, login provider, purchase type or new market. Store privacy labels describe app collection; visiting this website and voluntarily emailing support have their own disclosure.
 
@@ -55,7 +55,7 @@ There are no third-party fonts, scripts, embedded media, analytics, forms or dev
 
 ## Release boundary
 
-Dogak Dogak is distributed in South Korea, free of charge. The United States and Japan are planned for a later update with English and Japanese app screens and Japanese input; update the English and Japanese documents before that release.
+Dodak Dodak is distributed in South Korea, the United States and Japan, free of charge, from version 1.1.0 (English, Korean and Japanese screens and input).
 Gallery Search AI's initial release scope is the United States, United Kingdom, Canada, Australia and New Zealand. EU distribution is deferred. This does not expand Platelog's existing store distribution. Publishing English documents alone does not satisfy all obligations for expanding a cloud sharing service: verify international transfers, children's privacy, account deletion and operational rights handling before doing so.
 
 Do not commit credentials, private addresses, telephone numbers, support emails from users, app telemetry or personal photographs. Public contact: `lpaiu.cs@gmail.com`. Operator: JUNEYOUNG KIM, South Korea; developer name: lpaiu.
